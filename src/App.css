@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,78 @@
   to {
     transform: rotate(360deg);
   }
+} */
+/* the above is boilerplate CSS code*/
+
+/* body */
+body {
+  padding: 15px;
+  background-color: white;
+  font: Belleza;
+}
+
+/* footer */
+footer {
+  background-color: #53565A;
+  color: white;
+  margin-top: 10px;
+}
+
+footer p {
+  margin-top: 0.8em!important;
+  margin-left: 1.5em;
+}
+
+/* main */
+.main {
+  background-color: white;
+  color: black;
+  height: 100%;
+  min-height: 100%;
+}
+
+.mainDiv {
+  margin: auto;
+  width: 90%;
+  padding: 5px;
+}
+
+.sidebar {
+  display: flex;
+  background-color: #53565A;
+  margin-top: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Sidebar */
+.sidebar-list-styling{
+  padding-left: 50px;
+  padding-top: 15px;
+  width: 20%;
+  background-color: #53565A;
+  color: white;
+}
+
+.sidebar-route{
+  flex: 1;
+  padding: '00px';
+}
+
+/* Header */
+.header {
+  margin-top: 0.5em!important;
+  text-align: center;
+  background-color: #53565A;
+  color: white;
+}
+
+.header a {
+  color: white;
+}
+
+.header p {
+  margin-top: 0.8em!important;
 }
